@@ -47,37 +47,15 @@ section{
     justify-content: space-around;
 }
 
-.backgroundtemp{
-    text-align: center;
-    width: 20vw;
-    aspect-ratio: 1 / 1; 
-    background-color: white;
-    margin: 3vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    border-radius: 50%;
-
-    background: 
-    radial-gradient(white 45%, pink 45%,transparent 55%, transparent),
-    conic-gradient(from 180deg, rgb(164, 119, 232) 24.5%, rgb(237, 226, 253) 24.5%,rgb(237, 226, 253) 25.5%, rgb(209, 197, 227) 25.5%);
-}
-
 .background{
     text-align: center;
-    width: 20vw;
+    width: 25vw;
     aspect-ratio: 1 / 1; 
     margin: 3vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     border-radius: 50%;
-}
-
-toSave{
-    background: 
-    radial-gradient(white 45%, pink 45%,transparent 55%, transparent,rgba(0,0,0,0)),
-    conic-gradient(from 180deg, rgba(255, 255, 255, 0.701));
 }
 
 .background:hover{
@@ -87,7 +65,7 @@ toSave{
 
 .complete{
     text-align: center;
-    width: 20vw;
+    width: 25vw;
     aspect-ratio: 1 / 1; 
     margin: 3vw;
     display: flex;
@@ -105,34 +83,3 @@ toSave{
     cursor: default;
 }
 
-
-.background4{
-    text-align: center;
-    width: 20vw;
-    aspect-ratio: 1 / 1; 
-    margin: 3vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    border-radius: 50%;
-
-    background: 
-    radial-gradient(white 45%, pink 45%,transparent 55%, transparent),
-    conic-gradient(from 179.5deg,
-    pink 0%,
-    pink 1%,
-    rgb(254, 104, 129) 1%, 
-    rgb(254, 104, 129) 25%, 
-    pink 25%,
-    pink 26%, 
-    rgba(255, 255, 255, 0.701) 26%,
-    rgba(255, 255, 255, 0.701) 50%,
-    pink 50%,
-    pink 51%,
-    rgb(255, 255, 255, 0.701) 51%,
-    rgb(255, 255, 255, 0.701)  75%,
-    pink 75%,
-    pink 76%,
-    rgb(255, 255, 255, 0.701)  76%
-    );
-}
