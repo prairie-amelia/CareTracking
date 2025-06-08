@@ -49,7 +49,7 @@ section{
 
 .background{
     text-align: center;
-    width: 25vw;
+    width: 30vw;
     aspect-ratio: 1 / 1; 
     margin: 3vw;
     display: flex;
@@ -65,7 +65,7 @@ section{
 
 .complete{
     text-align: center;
-    width: 25vw;
+    width: 30vw;
     aspect-ratio: 1 / 1; 
     margin: 3vw;
     display: flex;
