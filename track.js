@@ -3,9 +3,6 @@ const goalCount = {"water": 10,"meals": 3, "brain": 1, "outdoors": 1,"cardio": 1
 let goalCurrent = {"water": 0,"meals": 0, "brain": 0, "outdoors": 0,"cardio": 0,"lift": 0,"stretch":0,"social":0, "social_media": 0}
 
 
-resetGoals()
-
-
 let now = new Date(new Date().toLocaleString("en-US", {timeZone: "CST"}));
 
 let start = new Date(now.getFullYear(), 0, 0);
