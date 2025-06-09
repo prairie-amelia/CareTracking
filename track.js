@@ -18,6 +18,10 @@ if(lastDay){
         resetGoals()
     }
 }
+else{
+    localStorage.setItem("last_day", day)
+    resetGoals()
+}
 
 //cardio on odd days, lift on even days
 if(day % 2 === 0){
